@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/blas-base-sscal",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Multiply a single-precision floating-point vector by a constant.",
   "license": "Apache-2.0",
   "author": {
