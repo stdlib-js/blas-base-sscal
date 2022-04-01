@@ -1,0 +1,43 @@
+{
+  "name": "@stdlib/blas-base-sscal",
+  "version": "0.0.0",
+  "description": "Multiply a single-precision floating-point vector by a constant.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./mod.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/blas-base-sscal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "mathematics",
+    "math",
+    "blas",
+    "level 1",
+    "sscal",
+    "dscal",
+    "linear",
+    "algebra",
+    "scal",
+    "scale",
+    "subroutines",
+    "alpha",
+    "vector",
+    "array",
+    "ndarray",
+    "float32",
+    "float",
+    "single",
+    "float32array"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
