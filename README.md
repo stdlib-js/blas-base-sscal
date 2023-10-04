@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import sscal from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-sscal@deno/mod.js';
+import sscal from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-sscal@v0.1.1-deno/mod.js';
 ```
 
 #### sscal( N, alpha, x, stride )
@@ -152,7 +152,7 @@ sscal.ndarray( 3, 5.0, x, 1, x.length-3 );
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@deno/mod.js';
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
 import Float32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@deno/mod.js';
-import sscal from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-sscal@deno/mod.js';
+import sscal from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-sscal@v0.1.1-deno/mod.js';
 
 var rand;
 var sign;
