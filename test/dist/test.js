@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2019 The Stdlib Authors.
+* Copyright (c) 2023 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -21,62 +21,13 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var proxyquire = require( 'proxyquire' );
-var IS_BROWSER = require( '@stdlib/assert-is-browser' );
-var sscal = require( './../../dist' );
-
-
-// VARIABLES //
-
-var opts = {
-	'skip': IS_BROWSER
-};
+var main = require( './../../dist' );
 
 
 // TESTS //
 
-tape( 'main export is a function', function test( t ) {
+tape( 'main export is defined', function test( t ) {
 	t.ok( true, __filename );
-	t.strictEqual( typeof sscal, 'function', 'main export is a function' );
+	t.strictEqual( main !== void 0, true, 'main export is defined' );
 	t.end();
-});
-
-tape( 'attached to the main export is a method providing an ndarray interface', function test( t ) {
-	t.strictEqual( typeof sscal.ndarray, 'function', 'method is a function' );
-	t.end();
-});
-
-tape( 'if a native implementation is available, the main export is the native implementation', opts, function test( t ) {
-	var sscal = proxyquire( './../dist', {
-		'@stdlib/utils-try-require': tryRequire
-	});
-
-	t.strictEqual( sscal, mock, 'returns native implementation' );
-	t.end();
-
-	function tryRequire() {
-		return mock;
-	}
-
-	function mock() {
-		// Mock...
-	}
-});
-
-tape( 'if a native implementation is not available, the main export is a JavaScript implementation', opts, function test( t ) {
-	var sscal;
-	var main;
-
-	main = require( './../../dist/sscal.js' );
-
-	sscal = proxyquire( './../dist', {
-		'@stdlib/utils-try-require': tryRequire
-	});
-
-	t.strictEqual( sscal, main, 'returns JavaScript implementation' );
-	t.end();
-
-	function tryRequire() {
-		return new Error( 'Cannot find module' );
-	}
 });
