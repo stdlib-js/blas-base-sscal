@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-23)
+## Unreleased (2025-03-27)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`575ced1`](https://github.com/stdlib-js/stdlib/commit/575ced18983327e0b22d55b2dd5076cc45f00e9e) - **docs:** update related packages sections [(#6385)](https://github.com/stdlib-js/stdlib/pull/6385) _(by stdlib-bot)_
 -   [`62364f6`](https://github.com/stdlib-js/stdlib/commit/62364f62ea823a3b52c2ad25660ecd80c71f8f36) - **style:** fix C comment alignment _(by Philipp Burckhardt)_
 -   [`b20a9e6`](https://github.com/stdlib-js/stdlib/commit/b20a9e616e5d04cfc3e5bc71bd557e15af738050) - **docs:** update related packages sections [(#3936)](https://github.com/stdlib-js/stdlib/pull/3936) _(by stdlib-bot)_
 -   [`d23d168`](https://github.com/stdlib-js/stdlib/commit/d23d16808c4c6970f8ae2c583c05261396ea9e4b) - **feat:** add C `ndarray` implementation for `blas/base/sscal` [(#3030)](https://github.com/stdlib-js/stdlib/pull/3030) _(by Aman Bhansali, Athan Reines, stdlib-bot)_
