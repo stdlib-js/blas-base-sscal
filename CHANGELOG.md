@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`0ea23ed`](https://github.com/stdlib-js/stdlib/commit/0ea23ed7a9be84a6e534984b7a5de2e5cdadfa5a) - **bench:** add missing docblock in \`blas/base/sscal\` _(by Philipp Burckhardt)_
 -   [`7dd0179`](https://github.com/stdlib-js/stdlib/commit/7dd017988d1db6401aaa7ca1ec9590dc6aa1e011) - **bench:** refactor to use dynamic memory allocation in `blas/base/sscal` [(#8819)](https://github.com/stdlib-js/stdlib/pull/8819) _(by Krishna Awasthi)_
 -   [`d559fd7`](https://github.com/stdlib-js/stdlib/commit/d559fd70de9ec9b1d72d22543876f380e4062c69) - **refactor:** update include header guards for single precision real packages [(#7710)](https://github.com/stdlib-js/stdlib/pull/7710) _(by Shabareesh Shetty)_
 -   [`09c9ceb`](https://github.com/stdlib-js/stdlib/commit/09c9ceb58c6dd23c10f1980094851983c57d693f) - **chore:** fix formatting _(by Athan Reines)_
